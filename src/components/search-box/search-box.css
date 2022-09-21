@@ -1,0 +1,21 @@
+.search-box {
+  text-align: center;
+
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+
+  border-radius: 5px;
+  cursor: pointer;
+
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.search-box:hover {
+  transform: scale(1.05);
+}
